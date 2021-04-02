@@ -1,13 +1,13 @@
 import pandas as pd 
 import numpy as np 
 
-def sdm(data, min_temp_diff):
+def sdm(input_data, min_temp_diff):
     """
     The acronym sdm stands for Streams Data Manipulator. This function will take in the input stream data from the user and apply the problem table algorithm based on the minimum temperature difference selected by the user. 
     
     Parameters
     ----------
-    data : Pandas DataFrame
+    input_data : Pandas DataFrame
               The process plant's streams data obtained from Aspen HYSYS/Plus. 
     
     min_temp_diff : float
